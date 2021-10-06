@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Hachi+Maru+Pop&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&display=swap');
+* {
+    align-content: center;
+}
+
+.whitespace {
+    white-space: pre-line;
+}
+
+body {
+    background-image: url("blog.jpg");
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.658)!important;
+}
+
+.coloring {
+    color: aliceblue!important;
+}
+
+link {
+    color: rgb(255 255 255 / 90%);
+}
+
+#heading {
+    align-content: center;
+    text-align: center;
+    margin-top: 15rem;
+    align-self: center;
+    border: rgb(247, 248, 248);
+    border-style: groove;
+    background-origin: padding-box;
+    padding: 10px;
+}
+
+#h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 70px;
+    text-emphasis-color: black;
+}
+
+#h3 {
+    font-family: 'Amatic SC', cursive;
+    margin-left: 5rem;
+    font-size: 80px;
+}
+
+#p {
+    color: aliceblue;
+    text-size-adjust: 10rem;
+}
+
+#digco {
+    margin-top: 17rem;
+    background-color: rgba(0, 0, 0, 0.452);
+    font-size: 25px;
+    white-space: pre-line;
+}
+
+#pro {
+    margin-top: 17rem;
+    background-color: rgba(0, 0, 0, 0.452);
+    font-size: 25px;
+}
+
+#daily {
+    margin-top: 17rem;
+    background-color: rgba(0, 0, 0, 0.452);
+    font-size: 25px;
+}
+
+.headdiv {
+    align-content: center;
+    margin-left: 35px;
+}
+
+.divimg {
+    width: 500px
+}
+
+.box {
+    padding: 10px 10px 10px 0px;
+}
+
+.l_img {
+    width: 360px;
+    height: 360px;
+    padding: 15px;
+}
+
+.bd-highlight {
+    width: 330px;
+    text-align: center;
+    height: 160px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin: 10px 10px 10px 30px;
+}
+
+.navigater {
+    text-decoration: none!important;
+    color: black;
+}
+
+.navigaters {
+    text-decoration: none!important;
+    color: azure;
+}
