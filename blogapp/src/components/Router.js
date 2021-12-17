@@ -5,7 +5,7 @@ import Digital from './Digital';
 import profs from './profs';
 import Header from './Header';
 import Footer from './Footer';
-import Report from './Report';
+import Report from './Feedback';
 import Contact from './contact';
 
 function Router() {

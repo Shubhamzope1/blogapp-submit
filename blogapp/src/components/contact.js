@@ -5,6 +5,7 @@ import axios from "axios";
 class Contact extends React.Component {
   constructor() {
     super();
+    // a plain JavaScript object used by React to represent cureent information 
     this.state = {
         email:'',
         name:'',
@@ -14,7 +15,8 @@ class Contact extends React.Component {
   }
 
   handlecontact = ()=>{
-    const {  email,name,message, } = this.state;
+    //It allows you to assign the values of an array or the properties of an object without needing to reference the variable directly in the assignment
+    const {  email,name,message, } = this.state; 
     const repObj = {
         email:email, 
         name:name,
@@ -59,8 +61,8 @@ class Contact extends React.Component {
                             <input type="text" placeholder="enter your name" className="form-control"  onChange={(event) => this.handleInputChange(event, 'name')} /></span>
                             <label className="NameH">E-mail</label>
                             <input type="email" placeholder="enter your email" className="form-control"  required onChange={(event) => this.handleInputChange(event, 'email')} />
-                            <label className="NameH">Message</label>
-                            <textarea type="text" placeholder="enter your valuable response " className="form-control text-areaH" onChange={(event) => this.handleInputChange(event, 'message')} />
+                            <label className="NameH">Subject</label>
+                            <textarea type="text" placeholder="enter the topic you wish to disccus with us " className="form-control text-areaH" onChange={(event) => this.handleInputChange(event, 'subject')} />
                             <button className="btn btn-danger mt-3 mb-5 button"  onClick={this.handlecontact}>Submit</button>
                            </div>
                             

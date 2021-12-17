@@ -1,5 +1,6 @@
 const contact = require('../models/Feeds');
-
+//req is an object containing information about the HTTP request that raised the event. In response to req,
+// you use res to send back the desired HTTP response.
 exports.contact = (req, res, next) => {
     const { email, name, message } = req.body;
     contact.find()

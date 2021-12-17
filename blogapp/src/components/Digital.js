@@ -1,7 +1,22 @@
 import React from 'react';
 import '../Styles/home.css';
-import axios from 'axios';
+import axios from 'axios'; // Axios is a Javascript library used to make HTTP requests from node. js 
 
+
+const customStyles = {
+    content: {
+        top: '50%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+        marginRight: '-50%',
+        transform: 'translate(-50%, -50%)',
+        borderRadius:'6px',
+      
+    },
+};
+
+//mounting method of reACT WHERE WE PUT ELEMENTS TOGETHER
 
 class Digital extends React.Component {
     constructor() {
@@ -10,7 +25,7 @@ class Digital extends React.Component {
             Digital: []
         }
     }
-    componentDidMount() {
+    componentDidMount() {        //its
         sessionStorage.clear();
         axios({
             url: 'http://localhost:2023/Digital',
@@ -24,8 +39,9 @@ class Digital extends React.Component {
 
     }
 
+    // REACT LIFECYCLE - UPDATING  RENDER -  the method that actually outputs the HTML to the DOM.
     render() {
-        const { Digital } = this.state;
+        const { Digital,ANOTHERModalIsOpen } = this.state;
         return (
             <div>
                 <div id="digco" className="container text-light">
@@ -41,10 +57,6 @@ class Digital extends React.Component {
 
 
                     })}
-
-
-
-
                 </div>
             </div>
         )

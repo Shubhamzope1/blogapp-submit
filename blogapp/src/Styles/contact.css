@@ -9,3 +9,17 @@
     text-align: center;
     padding-top: 10px;
 }
+.trans{
+    background: transparent;
+    /* background-color: rgba(0, 0, 0, 0.452); */
+    width: fit-content;
+    border-radius: 51px;
+    
+}
+.transf{
+    border: 1px solid white;
+    min-width: 150px;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 51px;
+}

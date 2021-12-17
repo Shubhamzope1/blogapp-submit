@@ -5,7 +5,8 @@ class Quotes extends React.Component {
     constructor() {
         super();
         this.state = {
-            Quotes: []
+            Quotes: [],
+            day:[]
         }
     }
     componentDidMount() {
@@ -19,7 +20,15 @@ class Quotes extends React.Component {
                 console.log(response.data.Quotes)
             })
             .catch()
-
+            axios({
+                url: 'http://localhost:2023/qofday',
+                method: 'GET',
+                headers: { 'Content-Type': 'application/json' }
+            })
+                .then(respone => {
+                    this.setState({ day: respone.data.day })
+                })
+                .catch()
     }
     render() {
         const { Quotes } = this.state;

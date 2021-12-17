@@ -40,7 +40,9 @@ class Footer extends React.Component {
             </div>
             <div className=" col-6 col-lg-4 fly " >
               <h3 className="touch">KEEP IN TOUCH</h3>
-              <div className="container-fluid fly">Shubham zope :<a href="mailto:shubhamzope1@gmail.com" className="fly" style={{ marginRight: "30px", textDecoration: "none", color: "#9a9a9a" }}>shubhamzope1@gmail.com</a>
+              <div className="container-fluid fly">Mini-Project Team:<a href="mailto:shubhamzope1@gmail.com" className="fly" style={{ marginRight: "30px", textDecoration: "none", color: "#9a9a9a" }}>shubhamzope</a>
+              <a href="mailto:shubhamzope1@gmail.com" className="fly" style={{ marginRight: "30px", textDecoration: "none", color: "#9a9a9a" }}>Atherva</a>
+              <a href="mailto:shubhamzope1@gmail.com" className="fly" style={{ marginRight: "30px", textDecoration: "none", color: "#9a9a9a" }}>Ritesh</a>
 
               </div>
               <div className="text-start">
